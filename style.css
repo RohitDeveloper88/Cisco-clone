@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+     padding: 0;
+      box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    background: rgb(245, 240, 240);
+}
+
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    margin-left: 1100px;
+    margin-top: 5px;
+}
+
+.hi{
+    padding: 15px;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+.li{
+    text-decoration: none;
+    color: black;
+}
+
+.cisco{
+    background: #fff;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+}
+
+.content{
+    display: flex;
+    
+    align-items: center;
+}
+
+.read{
+    margin-right: 20px;
+}
+
+.pad{
+    padding: 12px;
+}
+
+.mos{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.cisco2{
+    display: flex;
+    margin-left: 250px;
+}
+
+.size{
+  
+    font-size: 25px;
+    margin-right: 18px;
+}
+
+.head{
+    margin-top: 50px;
+}
+
+
+
+.head h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 200;
+}
+
+
+
+.head p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(56, 52, 52);
+    font-weight: 100;
+    margin-top: 15px;
+}
+
+
+.btn{
+    font-size: 15px; 
+    display: inline-block;
+    margin-left: 680px;
+    padding: 1.5em 3em; 
+    text-decoration: none;
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 18px;
+    font-weight: 500;
+}
+
+.btn-primary{
+    color: #fff;
+    background: rgb(5, 5, 74);
+    
+}
+
+.btn-primary:hover{
+    background: rgb(7, 7, 49);
+}
+
+.mans{
+    
+    padding: 90px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.mans h3 a{
+    text-decoration: none;
+    color: rgb(67, 64, 64);
+}
+
+.mans h3{
+    
+    padding-right: 60px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.full{
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 10;
+}
+
+.mans h3:hover{
+    text-decoration: underline;
+}
+
+.lion h1{
+    
+        font-weight: 100;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+    font-size: 40px;
+    color: black;
+}
+
+.photo{
+    display: flex;
+    justify-content: space-around;
+}
+   
+.row{
+    margin-top: 60px;
+    margin-left: 40px;
+    background: #fff;
+    width: 401px;
+    height: 450px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.315);
+}
+
+.row img{
+   width: 400px;
+   
+}
+
+.row h1{
+margin-top: 20px;
+margin-left: 20px;
+font-weight: 100;
+color: rgb(42, 41, 41);
+}
+.row p{
+margin-top: 20px;
+margin-left: 20px;
+font-weight: 100;
+color: rgb(28, 23, 23);
+word-spacing: 5px;
+}
+.row a{
+margin-bottom: 90px;
+margin-left: 20px;
+font-weight: 300;
+text-decoration: none;
+font-size: 20px;
+
+}
+
+
+.row a:hover{
+    text-decoration: underline;
+}
+
+.horse{
+    margin-top: 100px;
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.horse h1{
+    font-size: 30px;
+    margin-top: 20px;
+margin-left: 20px;
+font-weight: 100;
+color: rgb(42, 41, 41);
+}
+
+.horse img{
+    padding-left: 50px;
+}
+
+.horse p{
+    word-spacing: 5px;
+    margin-top: 20px;
+margin-left: 20px;
+font-weight: 100;
+color: rgb(58, 58, 58);
+word-spacing: 5px;
+}
+
+.horse a{
+    margin-bottom: 90px;
+margin-left: 20px;
+font-weight: 300;
+text-decoration: none;
+font-size: 20px;
+}
+
+.horse a:hover{
+    text-decoration: underline;
+}
+
+.texd{
+    margin-top: 80px;
+}
+
+.horse span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horses{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+
+.horses h1{
+    font-size: 30px;
+    margin-top: 20px;
+margin-left: 20px;
+font-weight: 100;
+color: rgb(42, 41, 41);
+}
+
+.horses img{
+    padding-left: 50px;
+}
+
+.horses p{
+    word-spacing: 5px;
+    margin-top: 20px;
+margin-left: 20px;
+font-weight: 100;
+color: rgb(58, 58, 58);
+word-spacing: 5px;
+}
+
+.horses a{
+    margin-bottom: 90px;
+margin-left: 20px;
+font-weight: 300;
+text-decoration: none;
+font-size: 20px;
+}
+
+.horses a:hover{
+    text-decoration: underline;
+}
+
+.texd{
+    margin-top: 80px;
+}
+
+.horses span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tobi h1{
+    margin-left: 180px;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.tobi p{
+    
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 90px;
+    color: rgb(67, 63, 63);
+    word-spacing: 10px;
+}
+
+
+.tobi img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 600px;
+    margin-right: 20px;
+}
+
+.fot{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.floe p{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.flow a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px;
+    color: blue;
+    font-weight: 200;
+}
+
+.flow a:hover{
+    text-decoration: underline;
+}
+
+.alow{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hola{
+    margin-right: 20px;
+    margin-left: 200px;
+}
+
+.hola p{
+    font-size: 350px;
+    font-weight: 200;
+    color: rgb(36, 35, 35);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.hola h3{
+   font-size: 25px;
+   font-weight: 100;
+
+}
+
+.hola p{
+    font-size: 15px;
+    font-weight: 100;
+    word-spacing: 10px;
+}
+
+.hola a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px;
+    color: blue;
+    font-weight: 200;
+}
+
+.hola a:hover{
+    text-decoration: underline;
+}
+
+
+.foot{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(217, 214, 214);
+}
+
+
+
+.lin a{
+    
+    padding: 20px;
+    text-decoration: none;
+    margin-bottom: 80px;
+    color: gray;
+}
+
+.lin a:hover{
+    text-decoration: underline;
+}
+
+.loe .yo{
+    
+    padding: 15px;
+   font-size: 20px;
+  color: gray;
+}
+
+.loe .yo:hover{
+    color: blue;
+}
+
+
+.allio{
+    background: rgb(217, 214, 214);
+    display: flex;
+    
+}
+
+.allio a{
+    font-size: 12px;
+    text-decoration: none;
+    color: gray;
+    padding: 15px;
+}
+
+.allio a:hover{
+    text-decoration: underline;
+}
+
+.yes{
+    padding: 10px;
+    display: flex;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+    background: rgb(217, 214, 214);
+}
